@@ -1,0 +1,65 @@
+header.flex{
+    justify-content: space-between;
+    padding-inline: 10%;
+    padding-top: 1.2rem;
+
+    
+
+}
+
+
+header.flex .sign-in{
+    margin-inline:1rem ;
+}
+
+header.flex .sign-in,header.flex .register{
+    border: 2px solid var(--bodyFont);
+    padding: 0.44rem 1rem;
+    border-radius: 55px;
+    font-size: 0.8rem;
+    font-weight: 500;
+
+}
+header.flex .sign-in:hover,header.flex .register:hover,header.flex .sign-in:hover .fa-solid,header.flex .register:hover .fa-solid{
+   background-color: var(--bodyFont);
+   color: var(--blue);
+}
+header.flex .links .fa-solid{
+    margin-right: 0.3rem;
+}
+header.flex .cart{
+ background-color: var(--bodyFont);
+ color: var(--blue);
+ font-size: 0.9rem;
+ padding: 0.44rem 1.1rem 0.44rem 0.6rem;
+border-radius: 55px;
+}
+header.flex .cart .fa-solid{
+    color: var(--blue);
+}
+header.flex .products-number{
+     position: absolute;
+     right: 0;
+     top: -5px;
+     background-color: rgb(235, 33, 33);
+
+      width: 22px;
+      height: 22px;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      font-size: 0.7rem;
+      font-weight: bold;
+}
+
+header.flex .fa-bag-shopping{
+    font-size: 2rem;
+}
+@media(width<600px){
+    .logo{
+    display: none;
+}
+
+}

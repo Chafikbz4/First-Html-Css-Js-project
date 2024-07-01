@@ -1,0 +1,61 @@
+header.flex{
+    background-color: black;
+    color: white;
+    padding-block: 0.6rem;
+}
+header.flex .fa-solid{
+    color: white;
+}
+header.flex .logo .fa-solid{
+    font-size: 1rem.5;
+}
+header.flex .logo .fa-solid:hover{
+    font-size: 1rem.5;
+    border: 1px solid white;
+}
+main.flex{
+    max-width: 1000px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+    ;
+    background-color: white;
+}
+main.flex img{
+    width: 260px;
+    border-radius: 0.4rem;
+}
+main.flex .price{
+    font-size: 1.22rem;
+    font-weight: bold;
+    color: rgb(219, 27, 27);
+}
+main.flex .product-details{
+    margin-inline: 1.1rem;
+}
+main.flex .discription{
+    text-align: left;
+    margin-block: 1.2rem;
+    line-height: 1.44rem;
+}
+main.flex .add-to-cart{
+    background-color: rgb(42, 42, 203);
+    color: white;
+    border-radius: 4px;
+    padding: 6px 8px;
+    font-size: 0.9rem;
+    gap: 0.33rem;
+}
+main.flex .fa-solid{
+    color: white;
+}
+@media (width<800px) {
+    main.flex{
+        flex-wrap: wrap;
+    }
+    main.flex img{
+        margin-inline: auto;
+    }
+    main.flex .product-details{
+        margin-top: 2.5rem;
+        margin-bottom: 1.3rem;
+    }
+}

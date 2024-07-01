@@ -1,0 +1,98 @@
+header.flex{
+    background-color: black;
+    color: white;
+    padding-block: 0.6rem;
+}
+header.flex .fa-solid{
+    color: white;
+}
+header.flex .logo .fa-solid{
+    font-size: 1rem.5;
+}
+header.flex .logo .fa-solid:hover{
+    font-size: 1rem.5;
+    border: 1px solid white;
+}
+
+section.cart article.flex{
+    background-color:white;
+    border-top: 2px solid rgba(22, 22, 212, 0.917);
+    margin-top: 1.8rem;
+    justify-content: space-between;
+    max-width: 450px;
+    margin-inline:auto ;
+    border-radius: 4px;
+    font-weight: 500;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+    
+}
+section.cart article.flex .fa-trash-can{
+    color: red;
+    margin-left: 1rem;
+}
+section.cart article.flex button.decrease{
+    color: rgb(38, 38, 186);
+    font-size: 1.9rem;
+}
+section.cart article.flex .quantity{
+    background-color: rgb(38, 38, 186);
+    color: white;
+    font-size: 0.8rem;
+    height: 21px;
+    width: 21px;
+    border-radius: 50%;
+    justify-content: center;
+    margin-inline: 0.4rem;
+}
+section.cart article.flex button.increase{
+    color: rgb(38, 38, 186);
+    font-size: 1.9rem;
+}
+button.Clear{
+    background-color: rgb(222, 24, 24);
+    color: white;
+    margin-top: 1rem;
+    border-radius: 4px;
+    padding: 6px 8px;
+    font-size: 0.8rem;
+}
+section.summary{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+    width: 233px;
+    margin-inline:auto;
+    margin-top: 2.5rem;
+    border-radius: 4px;
+    
+}
+section.summary h1{
+    font-size: 1.2rem;
+    padding-block: 0.5rem;
+    border-radius: 2px solid rgba(0,0,0,0.12);
+
+}
+section.summary div.flex{
+    justify-content: space-between;
+    padding-inline: 0.5rem;
+    margin-block: 0.6rem;
+
+}
+section.summary button.chekout{
+    width: 100%;
+    background-color: rgb(28, 28, 212);
+    color: white;
+    padding-block: 0.6rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+section.summary a{
+    color: red;
+}
+
+
+
+
+ 
+
+
+
